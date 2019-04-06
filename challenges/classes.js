@@ -17,11 +17,11 @@ class CuboidMakerClass{
   
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-const cuboid2 = new CuboidMakerClass(4,5,5);
+var cuboid = new CuboidMakerClass(4,5,5);
 
 console.log("Test for classes.js");
-console.log("cuboid Volume:",cuboid2.volume()); // 100
-console.log("cuboid Surface Area:",cuboid2.surfaceArea()); // 130
+console.log("cuboid Volume:",cuboid.volume()); // 100
+console.log("cuboid Surface Area:",cuboid.surfaceArea()); // 130
 
 
 // Stretch Task: Extend the base class CuboidMaker with a sub class called CubeMaker.  Find out the formulas for volume and surface area for cubes and create those methods using the dimension properties from CuboidMaker.  Test your work by logging out your volume and surface area.
@@ -31,8 +31,12 @@ class CubeMaker extends CuboidMakerClass{
     }
 }
 
+/*
+You could recreate the SurfaceArea methods but it seems excessive, since the Surface area formula and the volume formula for a rectangular solid should still work for a cube.
+*/
+
 var cube = new CubeMaker(5);
 
-console.log ("Stretch Task: Cube")
+console.log ("Stretch Task for classes.js: Cube")
 console.log("Volume for Cube 5x5x5",cube.volume());//should be 125 for cube of side 5
 console.log("Surface Area for Cube 5x5x5",cube.surfaceArea()); //for cube of side 5, should be 150

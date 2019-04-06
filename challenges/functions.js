@@ -43,9 +43,8 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-
 // Explanation: 
-/* The variable `internal`, a const, is block scoped and the nested function nestedFunction can access variables in its lexical scope, which includes the const `internal` */
+/* The variable `internal`, a const, is block scoped and the nested function nestedFunction inside myFunction can access variables in its lexical scope, which includes the const `internal` */
 
 const external = "I'm outside the function";
 
