@@ -38,8 +38,7 @@ var cuboid = new CuboidMaker(4,5,5);
 
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-// console.log(cuboid.volume()); // 100
-// console.log(cuboid.surfaceArea()); // 130
+//NOTE: I modified the consol.log so I could have a context for what the numbers were when I looked at console using index.html
 console.log("cuboid Volume:",cuboid.volume()); // 100
 console.log("cuboid Surface Area:",cuboid.surfaceArea()); // 130
 
