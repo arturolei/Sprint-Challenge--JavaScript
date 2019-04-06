@@ -94,3 +94,22 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+
+## Sprint/B Week Reflections (Also Inputed on Airtable):
+
+### Pull Request Link:
+[https://github.com/arturolei/Sprint-Challenge--JavaScript/pull/1] (https://github.com/arturolei/Sprint-Challenge--JavaScript/pull/1) 
+
+### What Went Well
+I feel comfortable using `class` for elementary uses (still need to get around to static methods)
+
+### What COuld Be better:
+I personally would have liked more time spent on hoisting and the nature "strict" mode (especially with regard to `class`)
+
+
+### Instructor Comments:
+Great job, I love the review sessions toward the end of each module.
+
+### What Else Should We KNow:
+I've stated this before, and this might be an edge case, but for the question, "On a scale of 1-10, how likely are you to recommend Lambda School to a friend or colleague?", if one's colleagues/social circle already includes software engineers/web developers and/or persons who might not prefer the Lambda School remote learning approach, I'd give a rather low rating to this question. Maybe revise this question to say "On a scale of 1-10, how likely are you to recommend Lambda School to a friend or colleague who would be interested in learning software engineering/web development and would prefer a flexible remote solution?" Also maybe include N/A
